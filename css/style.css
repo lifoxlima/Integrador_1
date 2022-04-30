@@ -86,7 +86,9 @@ bottom: -20px;
     text-align: center;
 }
 
-
+.div-der{
+    color: white;
+}
  
 .div-izq{
     background-image: url(../img/honolulu.jpg);
