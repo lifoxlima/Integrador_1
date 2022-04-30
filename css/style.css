@@ -1,0 +1,142 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+h4{
+    font-size: medium;
+}
+h3{
+    font-size: xx-large;
+}
+.navbar{
+    background-color: #333a40;
+}
+
+#logo .navbar-brand {
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    justify-content: right;
+    font-size: 20px;
+}
+
+#btn-comprar{
+    color: yellowgreen;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color:gray;
+    text-decoration: none;
+}
+
+
+#carouselExampleSlidesOnly{
+    display: flex;
+}
+ 
+.carousel-inner{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+}
+
+#class-texto-btn{
+position: absolute;
+display: flex;
+justify-content: flex-end;
+left: 50%;
+top:50%;
+color:white;
+padding-right: 10%;
+
+}
+
+.carousel-item{
+    filter:brightness(0.4)
+}
+
+#texto{
+    font-size: 20px;
+    text-align: end;
+    margin-bottom: 10px ;
+}
+
+#btn-carousel{
+position: absolute;
+bottom: -20px;
+}
+
+#div-tarjetas{
+    margin-top: 20px;
+}
+
+.texto-tarjetas{
+    text-align: center;
+}
+
+
+ 
+.div-izq{
+    background-image: url(../img/honolulu.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 50vh; 
+}    
+ 
+.text-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+
+.formulario{
+    display: flex;
+    padding-left: 50%;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.formulario{
+    align-items: center!important;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#datos-form{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#enviar{
+    width: 100%;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    border-color: antiquewhite;
+}
+
+footer{
+display: flex;
+justify-content: space-around;
+padding: 20px;
+background-color: #1f5271;
+}
+
