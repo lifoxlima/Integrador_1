@@ -107,6 +107,7 @@ bottom: -20px;
 
 .formulario{
     display: flex;
+    align-items: center!important;
     padding-left: 50%;
     width: 50%;
     height: 100%;
@@ -116,15 +117,12 @@ bottom: -20px;
    
 }
 
-.formulario{
-    align-items: center!important;
-    justify-content: center;
-    flex-direction: column;
-}
 
-#datos-form{
+
+.datos-form{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    
     
 }
 #enviar{
@@ -142,3 +140,83 @@ padding: 20px;
 background-color: #1f5271;
 }
 
+#form-tickets{
+    width: 600px;
+    padding: 30 px;
+    display: inline;
+   
+    margin-top: 20px;
+
+}
+
+
+
+.cat{
+    width: 300px;
+    height: 24px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width: 200px;
+    height: 38px;
+}
+
+select{
+    width: 200px;
+    height: 38px;
+}
+
+.grid{
+    display: flex;
+    justify-content: center;
+}
+.cubo {
+    padding: 10px;
+    margin: 2px;
+    width: 200px;
+    height: 180px ;
+    text-align: center;
+    border: 2px solid #007bff ;
+    line-height: 10px;
+}
+.cubo h3 {
+    font-size: 20px;
+}
+
+.cubo p {
+    font-size: 12px;
+    color: #333a40;
+}
+
+.tickets{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#btn-ticket{
+    width: 100%;
+}
+
+#btn-resumen{
+    width: 50%;
+}
+#btn-borrar{
+    width: 50%;
+}
+
+.total h4{
+    height: 50px;
+    color: #429ee8;
+    text-align: start;
+    justify-content: center;
+    background-color: #cce5ff;
+}
+
+
+.cantidad{
+    width: 50%;
+    text-align: initial;
+}
